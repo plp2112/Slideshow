@@ -1,0 +1,37 @@
+div {
+	outline: 1px solid#CCCCCC;
+}
+
+/*Outermost div in our content markup */
+#main-content {
+	width: 960px;
+	height: 600px;
+	
+}
+
+.button-holder {
+	width: 200px;
+	float: left;
+}
+
+	.button {
+		width: 50px;
+		padding: 8px;
+		margin: 4px;
+		border: 1px;
+		border-color: green;
+		border-style: solid;
+		float: left;
+		text-align: center;
+		cursor: crosshair;
+	}
+.disabled {
+	cursor: default;
+	border-color: red;
+	color: red;
+}
+.image-holder {
+	width: 600px;
+	height: 345px;
+	float: left;
+}
